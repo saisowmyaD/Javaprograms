@@ -1,0 +1,30 @@
+import java.util.Stack;  
+
+public class collectionsstack
+{  
+public static void main(String args[])
+{
+
+// this is a stack in collection
+
+	Stack<String> stack = new Stack<String>();  
+	stack.push("ABCDE");  
+	stack.push("FGHIJ");  
+	stack.push("KLMNO");  
+	stack.push("PQRST");  
+	stack.push("UVWXY");  
+	stack.pop();  
+	Iterator<String> itr=stack.iterator();  
+	while(itr.hasNext())
+	{  
+	System.out.println(itr.next()); 	
+	}
+}
+
+}
+
+
+   
+
+
+
